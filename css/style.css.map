@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACAA,OAAO,CAAC,wFAAI;ACAZ,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,oBAAoB;CAAG",
     "sources": [
         "../sass/style.sass",
+        "../sass/_fonts.sass",
         "../sass/_settings.sass"
     ],
     "names": [],
