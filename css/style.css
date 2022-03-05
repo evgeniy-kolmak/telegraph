@@ -593,4 +593,44 @@ h1, h2, h3, p {
   margin-top: 4;
   margin-top: 30px;
 }
+
+@media (max-width: 1150px) {
+  .container {
+    max-width: 980px;
+  }
+  .header-hero__img {
+    width: 500px;
+  }
+  .header-title {
+    font-size: 42px;
+    line-height: 58px;
+  }
+  .header-discription {
+    font-size: 17px;
+  }
+  .btn-call {
+    width: 250px;
+    height: 50px;
+  }
+  .chat-visual::before {
+    width: 200px;
+    height: 200px;
+    left: 20px;
+    top: -300px;
+  }
+  .chat-visual::after {
+    width: 420px;
+    height: 250px;
+    top: 0;
+    left: 175px;
+  }
+  .chat-visual__image {
+    top: -210px;
+    width: 300px;
+  }
+  .chat-info__discription {
+    font-size: 17px;
+    margin-top: 25px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
