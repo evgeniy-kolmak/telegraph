@@ -779,8 +779,8 @@ h1, h2, h3, p {
     width: 500px;
   }
   .chat-visual::before {
-    width: 100px;
-    height: 100px;
+    width: 98px;
+    height: 98px;
     left: 320px;
     top: -255px;
   }
@@ -797,6 +797,59 @@ h1, h2, h3, p {
   }
   .chat-info {
     max-width: 340px;
+  }
+}
+
+@media (max-width: 380px) {
+  .header {
+    padding: 30px 0 0 0;
+  }
+  .header-title {
+    font-size: 31px;
+    line-height: 42px;
+  }
+  .header-discription {
+    font-size: 15px;
+    line-height: 27px;
+  }
+  .header-top {
+    margin-bottom: 40px;
+  }
+  .header-hero__text {
+    max-width: 280px;
+  }
+  .header-hero__img {
+    max-width: 300px;
+  }
+  .btn-call {
+    font-size: 15px;
+    width: 100%;
+  }
+  .option-item {
+    padding: 18px;
+  }
+  .chat {
+    padding-bottom: 50px;
+  }
+  .chat-visual::before {
+    left: 320px;
+    top: -255px;
+  }
+  .chat-visual::after {
+    left: 110px;
+  }
+  .chat-visual__image {
+    left: 130px;
+  }
+  .chat-info {
+    max-width: 300px;
+  }
+  .chat-info__discription {
+    margin-top: 20px;
+  }
+  .section-title {
+    font-size: 30px;
+    line-height: 40px;
   }
 }
 /*# sourceMappingURL=style.css.map */
