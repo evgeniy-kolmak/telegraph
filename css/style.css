@@ -633,4 +633,53 @@ h1, h2, h3, p {
     margin-top: 25px;
   }
 }
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 776px;
+  }
+  .header-hero__img {
+    width: 385px;
+  }
+  .header-discription {
+    margin: 20px 0 40px 0;
+    font-size: 16px;
+  }
+  .option-wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .option-item {
+    -ms-flex-preferred-size: 49%;
+        flex-basis: 49%;
+  }
+  .option-item:last-child {
+    margin-top: 25px;
+  }
+  .chat {
+    padding: 100px 0;
+  }
+  .chat-visual {
+    width: 500px;
+  }
+  .chat-visual::before {
+    width: 150px;
+    height: 150px;
+    left: 230px;
+    top: -270px;
+  }
+  .chat-visual::after {
+    width: 310px;
+    height: 210px;
+    top: -12px;
+    left: 88px;
+  }
+  .chat-visual__image {
+    top: -210px;
+    left: 20px;
+    width: 280px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
