@@ -722,4 +722,42 @@ h1, h2, h3, p {
         align-self: flex-end;
   }
 }
+
+@media (max-width: 590px) {
+  .header-hero__text {
+    max-width: 450px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .header-hero__img {
+    margin-top: 50px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .option {
+    padding: 50px 0 135px 0;
+  }
+  .option-item {
+    -ms-flex-preferred-size: 85%;
+        flex-basis: 85%;
+    margin-top: 25px;
+  }
+  .option-item:nth-child(1) {
+    margin-top: 0;
+  }
+  .chat-visual {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .chat-info {
+    margin-top: 230px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    max-width: 450px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
