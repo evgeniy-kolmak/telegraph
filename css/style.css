@@ -399,6 +399,15 @@ h1, h2, h3, p {
   line-height: 50px;
 }
 
+.section-discription {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  opacity: 0.8;
+  margin-top: 4;
+  margin-top: 30px;
+}
+
 .header {
   padding: 50px 0;
 }
@@ -589,13 +598,62 @@ h1, h2, h3, p {
   width: 455px;
 }
 
-.chat-info__discription {
-  font-weight: 300;
+.community {
+  padding: 73px 0 125px 0;
+}
+
+.community-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.community-text {
+  width: 465px;
+}
+
+.community-opportunity {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 570px;
+  height: 520px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.community-opportunity__item {
+  padding: 30px 20px;
+  width: 260px;
+  -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.03);
+          box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.03);
+  border-radius: 10px;
+}
+
+.community-opportunity__title {
+  font-weight: 500;
   font-size: 18px;
-  line-height: 28px;
+  line-height: 21px;
+  margin: 20px 0 15px 0;
+}
+
+.community-opportunity__discription {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 23px;
   opacity: 0.8;
-  margin-top: 4;
-  margin-top: 30px;
 }
 
 @media (max-width: 1150px) {
@@ -632,7 +690,7 @@ h1, h2, h3, p {
     top: -210px;
     width: 300px;
   }
-  .chat-info__discription {
+  .sectio-discription {
     font-size: 17px;
     margin-top: 25px;
   }
@@ -848,12 +906,12 @@ h1, h2, h3, p {
   .chat-info {
     max-width: 300px;
   }
-  .chat-info__discription {
-    margin-top: 20px;
-  }
   .section-title {
     font-size: 30px;
     line-height: 40px;
+  }
+  .section-discription {
+    margin-top: 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */
