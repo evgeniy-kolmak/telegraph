@@ -694,6 +694,21 @@ h1, h2, h3, p {
     font-size: 17px;
     margin-top: 25px;
   }
+  .community {
+    padding: 50px 0 70px 0;
+  }
+  .community-opportunity {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: auto;
+  }
+  .community-opportunity__item {
+    margin-top: 25px;
+  }
+  .community-opportunity__item:nth-child(1) {
+    margin-top: 0;
+  }
 }
 
 @media (max-width: 992px) {
@@ -783,6 +798,25 @@ h1, h2, h3, p {
     -ms-flex-item-align: end;
         align-self: flex-end;
   }
+  .community-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .community-text {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  .community-opportunity {
+    margin-top: 40px;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    height: 520px;
+  }
+  .community-opportunity__item {
+    margin-top: 0px;
+  }
 }
 
 @media (max-width: 590px) {
@@ -821,11 +855,32 @@ h1, h2, h3, p {
         align-self: center;
     max-width: 450px;
   }
+  .community-text {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    max-width: 450px;
+  }
+  .community-opportunity {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    height: auto;
+  }
+  .community-opportunity__item {
+    margin-top: 20px;
+  }
+  .community-opportunity__item:nth-child(1) {
+    margin-top: 0;
+  }
 }
 
 @media (max-width: 480px) {
   .container {
     max-width: 85%;
+  }
+  .section-title {
+    font-size: 34px;
   }
   .header-title {
     font-size: 34px;
@@ -858,6 +913,9 @@ h1, h2, h3, p {
     width: 240px;
   }
   .chat-info {
+    max-width: 340px;
+  }
+  .community-text {
     max-width: 340px;
   }
 }
@@ -912,6 +970,12 @@ h1, h2, h3, p {
   }
   .section-discription {
     margin-top: 20px;
+  }
+  .community-text {
+    max-width: 300px;
+  }
+  .community-opportunity__item {
+    padding: 18px;
   }
 }
 /*# sourceMappingURL=style.css.map */
