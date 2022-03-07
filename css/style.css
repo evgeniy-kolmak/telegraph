@@ -656,6 +656,64 @@ h1, h2, h3, p {
   opacity: 0.8;
 }
 
+.group {
+  padding: 200px 0 75px 0;
+}
+
+.group-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.group-visual {
+  position: relative;
+  width: 542px;
+}
+
+.group-visual::before {
+  content: '';
+  background-image: url(../img/square.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 249px;
+  height: 249px;
+  top: -327px;
+  right: -35px;
+  z-index: 0;
+}
+
+.group-visual::after {
+  content: '';
+  background-image: url(../img/group.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 414px;
+  height: 434px;
+  top: -75px;
+  left: 210px;
+  z-index: 2;
+}
+
+.group-visual__image {
+  position: absolute;
+  top: -240px;
+  left: 80px;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.group-info {
+  width: 465px;
+}
+
 @media (max-width: 1150px) {
   .container {
     max-width: 980px;
