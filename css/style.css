@@ -1139,18 +1139,18 @@ h1, h2, h3, p {
   .chat-visual::before {
     width: 98px;
     height: 98px;
-    left: 317px;
+    left: 297px;
     top: -257px;
   }
   .chat-visual::after {
     width: 310px;
     height: 210px;
     top: -15px;
-    left: 96px;
+    left: 76px;
   }
   .chat-visual__image {
     top: -210px;
-    left: 135px;
+    left: 115px;
     width: 240px;
   }
   .chat-info {
