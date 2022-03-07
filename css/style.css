@@ -714,6 +714,33 @@ h1, h2, h3, p {
   width: 465px;
 }
 
+.quick-start {
+  color: #fff;
+  padding: 80px 0;
+}
+
+.quick-start-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 50px 0;
+  background-color: #00194A;
+  border-radius: 25px;
+}
+
+.quick-start-content__item {
+  width: 580px;
+}
+
+.quick-start__discritpion {
+  opacity: 1;
+  margin-bottom: 50px;
+}
+
 @media (max-width: 1150px) {
   .container {
     max-width: 980px;
